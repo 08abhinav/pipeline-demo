@@ -18,4 +18,11 @@
   <build>
     <finalName>nextwork-web-project</finalName>
   </build>
+  <distributionManagement>
+  <repository>
+    <id>nextwork-pipeline-demo</id>
+    <name>nextwork-pipeline-demo</name>
+    <url>https://nextwork-804867352391.d.codeartifact.us-east-1.amazonaws.com/maven/pipeline-demo/</url>
+  </repository>
+</distributionManagement>
 </project>
